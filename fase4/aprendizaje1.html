@@ -7,51 +7,55 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <header>
         <img src="img/logounad1.png" alt="">
-        <h1>LA INTERFAZ DEL USUARIO,
-            INTERACCION HUMANO ORDENADOR</h1>
+        <h1>LA INTERFAZ DEL USUARIO,INTERACCION HUMANO ORDENADOR</h1>
     </header>
-    <nav class="menu-area">
-        <ul>
-            <li> <a href="index.html"> INICIO </a></li>
-            <li><a href="#"> TEMAS </a>
-                <ul class="dropdown-1">
-                    <li> <a href="tema1.html">INTERFAZ DE USUARIO</a> </li>
-                    <li> <a href="tema2.html">INTERACCION HUMANO ORDENADOR</a> </li>
-            </li>
-        </ul>
-        <li> <a href="#">RECURSOS DIGITALES</a>
-            <ul class="dropdown-1">
-                <li> <a href="recurso1.html">POTCAST</a> </li>
-                <li> <a href="recurso2.html">RECURSO 2</a> </li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+         
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">TEMAS</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="tema1.html">INTERFAZ DE USUARIO</a></li>
+                  <li><a class="dropdown-item" href="tema2.html">INTERACCION HUMANO ORDENADOR</a></li>
+                 
+                </ul>
+              </li>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">RECURSOS DIGITALES</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="recurso1.html">POTCAST</a></li>
+                  <li><a class="dropdown-item" href="recurso2.html">VIDEO</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">APRENDIZAJE</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="aprendizaje1.html">EVALUACION </a></li>
+                  <li><a class="dropdown-item" href="aprendizaje2.html">TALLER</a></li>
+                 
+                </ul>
+              </li>
             </ul>
-        </li>
-        <li> <a href="#">APRENDIZAJE</a>
-            <ul class="dropdown-1">
-                <li> <a href="aprendizaje1.html">APRENDIZAJE 1</a> </li>
-                <li> <a href="aprendizaje2.html">APRENDIZAJE 2</a> </li>
-            </ul>
-        </li>
-        <li> <a href="#">ACERCA DE </a>
-            <ul class="dropdown-1">
-                <li> <a href="#">INTERES 1</a> </li>
-                <li> <a href="#">INTERES 2</a> </li>
-            </ul>
-        </li>
-        </ul>
-    </nav>
+          </div>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="autor.html">AUTOR</a>   </div>
+      </nav>
     <div>
         <hr>
         <section>
 
             <article>
-            <h2> POTCAST </h2> <br>
-            
-            <audio src="sonido/Grabación.m4a" preload="none" controls></audio>
-            <audio src=""></audio>
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSevm26jbHoD9Gi3xB6R8XN_qZ4xIPGfbpN5ZP6uj7_c-_HjhQ/viewform?embedded=true" width="740" height="600" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
                    
         </article> <br>
         <hr> br
@@ -65,9 +69,7 @@
         </aside>
     </div>
 
-    <hr>
-
-    <hr>
+    
     <footer>
         <p>
             correo electronico: llpuentesc@unadvirtual.edu.co <br>
